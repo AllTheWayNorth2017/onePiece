@@ -1,4 +1,4 @@
-#### 下学期培训
+#### 下学期培训											——[仓库目录规范](./DirectorySpecification.md )
 
 - ### 寄语
 

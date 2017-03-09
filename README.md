@@ -1,4 +1,4 @@
-#### 下学期培训											——[仓库目录规范](./DirectorySpecification.md )
+#### 下学期培训											——[仓库目录规范](https://github.com/AllTheWayNorth2017/onePiece/blob/master/DirectorySpecification.md )
 
 - ### 寄语
 

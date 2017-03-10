@@ -6,9 +6,9 @@ class Route {
 	
 	private $method = null;			//请求方法
 	private $request_config = null;	//请求参数数组
-	private $module;    //默认为home模块
-	private $controller; //默认为index控制器
-	private $aciton; //默认为index方法
+	private $module;    			//默认为home模块
+	private $controller; 			//默认为index控制器
+	private $aciton; 				//默认为index方法
 	//定义路径常量
 	function __construct(){
 		$this->get_method();	//获取请求方法，以及参数数组

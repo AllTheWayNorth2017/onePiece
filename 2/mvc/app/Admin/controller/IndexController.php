@@ -14,6 +14,6 @@ class IndexController extends CommonController
     public function index() {
         $name = $_SESSION['user'];
         $this->assign('name', $name);
-        $this->display();
+        $this->display('index.html');
     }
 }

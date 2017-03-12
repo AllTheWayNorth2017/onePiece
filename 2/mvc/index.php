@@ -1,4 +1,6 @@
 <?php
+//开启session
+session_start();
 //项目根目录
 define('DIR', realpath('./'));
 //项目核心文件夹目录

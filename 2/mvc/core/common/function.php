@@ -18,7 +18,7 @@ function varDump($array) {
  * 获取项目url地址
  */
 function getContextPath() {
-    $pathInfo = $_SERVER['PATH_INFO'];
+    $pathInfo = isset($_SERVER['PATH_INFO']) ? $_SERVER['PATH_INFO'] : '//';
     $uri = $_SERVER['REQUEST_URI'];
     return str_replace($pathInfo, '', $uri);
 }

@@ -11,7 +11,7 @@ namespace core\lib;
 class Core
 {
     //防止类重复加载
-    public static $requestMap = array();
+    private static $requestMap = array();
 
     //加载控制器 调用控制器方法
     public static function run() {

@@ -15,9 +15,9 @@ class CommonController extends Controller
     //Admin模块session检验 以构造函数充当过滤器
     public function __construct()
     {
-        parent::__construct();
         if (!isset($_SESSION['user'])) {
             redirect('/home/login');
         }
+        parent::__construct();
     }
 }

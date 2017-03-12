@@ -6,10 +6,3 @@
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteRule ^(.*)$ index.php/$1 [QSA,PT,L]
 </IfModule>
-
-#无法正常访问resource静态资源
-#<IfModule mod_rewrite.c>
-#    RewriteEngine On
-#    RewriteCond %{REQUEST_FILENAME} !-f
-#    RewriteRule ^(.*)$ index.php/$1 [QSA,PT,L]
-#</IfModule>
